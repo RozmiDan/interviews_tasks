@@ -9,8 +9,8 @@ func main() {
 	var x []int
 	x = append(x, 0)
 	x = append(x, 1)
-	x = append(x, 2)
-	y := append(x, 3)
+	x = append(x, 2)  //l=3, c=4
+	y := append(x, 3) //l=4 c=4
 	z := append(x, 4)
 	fmt.Println(y, z)
 }
